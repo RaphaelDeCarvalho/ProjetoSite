@@ -1,2 +1,2 @@
 # ProjetoSite
-Projeto de site para praticar o trio de front-end (HTML, CSS, JavaScript) com Bootstrap.
+Estou fazendo esse projeto só para praticar o trio HTML, CSS, JavaScript e também o Bootstrap pra agilizar na criação das barras, colunas e na responsividade da tela
