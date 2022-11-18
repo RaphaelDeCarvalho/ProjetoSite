@@ -4,9 +4,39 @@ body{
     background-blend-mode: soft-light;
 }
 
+.titleScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+}
+
+ul.sideTitle {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+}
+li.textTitle {
+    writing-mode: vertical-lr;
+    font-size: 20vw;
+    font-family: 'Lobster';
+    color: #A8534B;
+    
+}
+li.textTitle.textNina {
+    transform: rotate(180deg);
+}
 nav {
     margin-bottom: 15px;
     background-color: #C30A28;
+    width: 100%;
 }
 .navbar-brand-mobile p, .navbar-brand p {
     position: absolute;
@@ -49,6 +79,7 @@ div.col{
     padding-top: 2em;
     padding-bottom: 1.5em;
     text-align: center;
+    position: relative;
 }
 img.imgCol{
     height: 160px;
@@ -101,6 +132,12 @@ ul .nav-link{
     font-size: 25px;
 }
 }
+@media screen and (max-width: 1300px) {
+    div.titleScreen{
+        display: none;
+    }
+}
+
 @media (max-width: 1000px){
     .navbar-brand{
        display:none ;
