@@ -28,7 +28,7 @@ li.textTitle {
     font-size: 20vw;
     font-family: 'Lobster';
     color: #A8534B;
-    
+    cursor: default;
 }
 li.textTitle.textNina {
     transform: rotate(180deg);
@@ -117,7 +117,9 @@ h2.Title {
 .contato p{
     padding: 0 1rem;
 }
-
+.contato img{
+    padding: 0;
+}
 @media (max-width: 320px){
 img.imgCol {
     height: 10em;
